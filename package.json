@@ -1,0 +1,12 @@
+{
+  "name": "ne-bit-ne-krashen",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Не бит, не крашен: игра про перекупа для Игр ВКонтакте (этап A, плейтест)",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "start": "python3 serve.py 8000",
+    "sim": "node tools/simulate.js 200 60"
+  }
+}

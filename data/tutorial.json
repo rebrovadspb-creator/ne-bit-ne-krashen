@@ -1,0 +1,14 @@
+{
+  "modelId": "zubilo",
+  "sellerId": "ded",
+  "v0": 143000,
+  "year": 2003,
+  "color": "серебристый",
+  "realMileage": 130000,
+  "rollbackKm": 40000,
+  "scheme": "mileage_rollback",
+  "noTrap": true,
+  "manyOwners": { "n": 4, "years": 3 },
+  "defects": ["windshield_crack", "oil_leak", "sill_rust", "many_owners"],
+  "adText": "Не бит, не крашен, все ТО по регламенту."
+}

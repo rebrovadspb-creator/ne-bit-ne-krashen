@@ -1,0 +1,36 @@
+[
+  {
+    "id": "ded", "name": "Дед-гаражник", "emoji": "👴", "share": 25,
+    "yield": 0.5, "patience": 4, "bluffPatienceCost": 3,
+    "trait": "Объявление честнее. Блеф стоит ему нервов: −3 терпения",
+    "honestAd": true, "schemeChance": 0.25, "trapChance": 0.07,
+    "schemeWeights": { "mileage_rollback": 2, "ex_taxi": 1, "hidden_accident": 1, "drowned": 0 }
+  },
+  {
+    "id": "family", "name": "Семья с переездом", "emoji": "👨‍👩‍👧", "share": 20,
+    "yield": 0.8, "patience": 3,
+    "trait": "Спешат. Сделка за 3 карты или меньше: уступят ещё 5%",
+    "fewCardsBonus": { "maxCards": 3, "pct": 5 }, "schemeChance": 0.3, "trapChance": 0.08,
+    "schemeWeights": { "mileage_rollback": 1, "ex_taxi": 1, "hidden_accident": 1 }
+  },
+  {
+    "id": "taxi", "name": "Таксист", "emoji": "🚕", "share": 20,
+    "yield": 0.6, "patience": 3, "mileageMultiplier": 1.5,
+    "trait": "Большой пробег, часто бывшее такси",
+    "schemeChance": 0.55, "trapChance": 0.08,
+    "schemeWeights": { "mileage_rollback": 2, "ex_taxi": 6, "hidden_accident": 1 }
+  },
+  {
+    "id": "perekup", "name": "Перекуп-конкурент", "emoji": "🕶️", "share": 25,
+    "yield": 0.4, "patience": 2, "bluffAlwaysFails": true,
+    "trait": "Жёсткий. Блеф не работает. Любит скрутки и скрытые ДТП",
+    "schemeChance": 0.7, "trapChance": 0.12,
+    "schemeWeights": { "mileage_rollback": 4, "hidden_accident": 4, "ex_taxi": 1, "drowned": 1 }
+  },
+  {
+    "id": "salon", "name": "Салон «Честный авто»", "emoji": "🏢", "share": 10, "minRep": 10,
+    "noBargain": true, "noTraps": true, "askMultiplier": 1.08, "yield": 0, "patience": 0,
+    "trait": "Торга нет. Цена 1,08 от рыночной. Дефекты указаны в объявлении",
+    "honestAd": true, "schemeChance": 0
+  }
+]

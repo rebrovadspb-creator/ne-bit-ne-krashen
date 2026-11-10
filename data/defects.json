@@ -1,0 +1,35 @@
+[
+  { "id": "windshield_crack", "name": "Трещина лобового стекла", "group": "body", "foundBy": ["zone"], "zones": ["windshield"], "bargainPct": 1.5, "repairPct": 1, "repairHours": 1, "type": "fixable", "decal": "crack", "adNote": "на лобовом есть трещинка" },
+  { "id": "dent", "name": "Вмятина", "group": "body", "foundBy": ["zone"], "zones": ["hood", "fender", "door"], "bargainPct": 2, "repairPct": 1, "repairHours": 1, "type": "fixable", "decal": "dent", "adNote": "есть небольшая вмятина" },
+  { "id": "paint_chip", "name": "Скол краски", "group": "body", "foundBy": ["zone"], "zones": ["hood", "fender", "door"], "bargainPct": 1, "repairPct": 0.5, "repairHours": 1, "type": "fixable", "decal": "chip" },
+  { "id": "bumper_damage", "name": "Повреждённый бампер", "group": "body", "foundBy": ["zone"], "zones": ["bumper"], "bargainPct": 2, "repairPct": 1.5, "repairHours": 1, "type": "fixable", "decal": "scratch", "adNote": "бампер в царапинах" },
+  { "id": "sill_rust", "name": "Ржавые пороги", "group": "body", "foundBy": ["zone"], "zones": ["sill"], "bargainPct": 4, "repairPct": 2.5, "repairHours": 3, "type": "fixable", "decal": "rust" },
+  { "id": "shade_mismatch", "name": "Деталь другого оттенка", "group": "body", "foundBy": ["zone"], "zones": ["hood", "fender", "door"], "bargainPct": 3, "repairPct": null, "repairHours": null, "type": "unfixable", "decal": "shade", "weight": 0.6 },
+  { "id": "putty", "name": "Шпаклёвка", "group": "body", "foundBy": ["tool"], "zones": [], "bargainPct": 5, "repairPct": null, "repairHours": null, "type": "unfixable" },
+  { "id": "serious_accident", "name": "Серьёзное ДТП", "group": "body", "foundBy": ["scheme", "probeika"], "zones": [], "bargainPct": 10, "repairPct": null, "repairHours": null, "type": "unfixable" },
+
+  { "id": "headlight_crack", "name": "Трещина фары или поворотника", "group": "light", "foundBy": ["zone"], "zones": ["headlight"], "bargainPct": 1, "repairPct": 0.5, "repairHours": 1, "type": "fixable", "decal": "crack" },
+  { "id": "stoplight_dead", "name": "Не работает стоп-сигнал", "group": "light", "foundBy": ["zone"], "zones": ["stoplight"], "bargainPct": 0.5, "repairPct": 0.5, "repairHours": 1, "type": "fixable", "decal": "darklight" },
+  { "id": "ecu_errors", "name": "Ошибки в блоке управления", "group": "light", "foundBy": ["tool"], "zones": [], "bargainPct": 3, "repairPct": 1.5, "repairHours": 3, "type": "fixable" },
+  { "id": "ac_dead", "name": "Не работает кондиционер", "group": "light", "foundBy": ["tool"], "zones": [], "bargainPct": 2, "repairPct": 1.5, "repairHours": 3, "type": "fixable" },
+
+  { "id": "oil_leak", "name": "Течь масла", "group": "engine", "foundBy": ["zone"], "zones": ["under"], "bargainPct": 3, "repairPct": 1.5, "repairHours": 3, "type": "fixable", "decal": "puddle", "adNote": "масло иногда пьёт" },
+  { "id": "blue_smoke", "name": "Синий дым", "group": "engine", "foundBy": ["zone"], "zones": ["exhaust"], "bargainPct": 8, "repairPct": 6, "repairHours": 8, "type": "fixable", "decal": "smoke" },
+  { "id": "engine_knock", "name": "Стук в двигателе", "group": "engine", "foundBy": ["tool"], "zones": [], "bargainPct": 12, "repairPct": 8, "repairHours": 8, "type": "fixable" },
+  { "id": "gearbox_jerk", "name": "Пинается коробка", "group": "engine", "foundBy": ["tool"], "zones": [], "bargainPct": 7, "repairPct": 5, "repairHours": 8, "type": "fixable" },
+  { "id": "odometer_rollback", "name": "Скрученный пробег", "group": "engine", "foundBy": ["scheme", "probeika"], "zones": [], "bargainPct": 10, "repairPct": null, "repairHours": null, "type": "unfixable" },
+
+  { "id": "bald_tires", "name": "Лысая резина", "group": "chassis", "foundBy": ["zone"], "zones": ["wheel_front", "wheel_rear"], "bargainPct": 1.5, "repairPct": 1.5, "repairHours": 1, "type": "fixable", "decal": "tire" },
+  { "id": "worn_discs", "name": "Изношенные тормозные диски", "group": "chassis", "foundBy": ["zone"], "zones": ["wheel_front", "wheel_rear"], "bargainPct": 1.5, "repairPct": 1, "repairHours": 1, "type": "fixable", "decal": "disc" },
+  { "id": "shocks_dead", "name": "Убитые амортизаторы", "group": "chassis", "foundBy": ["tool"], "zones": [], "bargainPct": 2.5, "repairPct": 2, "repairHours": 3, "type": "fixable" },
+
+  { "id": "smoky_interior", "name": "Прокуренный салон", "group": "interior", "foundBy": ["interior"], "zones": ["ashtray"], "bargainPct": 1, "repairPct": 0.5, "repairHours": 1, "type": "fixable", "decal": "smokeint" },
+  { "id": "torn_seat", "name": "Порванное сиденье", "group": "interior", "foundBy": ["interior"], "zones": ["seat"], "bargainPct": 1.5, "repairPct": 1, "repairHours": 1, "type": "fixable", "decal": "tear" },
+  { "id": "drowned", "name": "Утопленник", "group": "interior", "foundBy": ["scheme"], "zones": [], "bargainPct": 0, "repairPct": null, "repairHours": null, "type": "trap" },
+
+  { "id": "many_owners", "name": "Много владельцев", "group": "documents", "foundBy": ["document"], "zones": [], "doc": { "doc": "pts", "row": "owners" }, "bargainPct": 3, "repairPct": null, "repairHours": null, "type": "unfixable" },
+  { "id": "duplicate_pts", "name": "Дубликат ПТС", "group": "documents", "foundBy": ["document"], "zones": [], "doc": { "doc": "pts", "row": "type" }, "bargainPct": 2, "repairPct": null, "repairHours": null, "type": "unfixable" },
+  { "id": "ex_taxi", "name": "Бывшее такси", "group": "documents", "foundBy": ["scheme", "probeika"], "zones": [], "bargainPct": 5, "repairPct": null, "repairHours": null, "type": "unfixable" },
+  { "id": "pledge", "name": "Залог у банка", "group": "documents", "foundBy": ["probeika"], "zones": [], "bargainPct": 0, "repairPct": null, "repairHours": null, "type": "trap" },
+  { "id": "wanted", "name": "Розыск или ограничения", "group": "documents", "foundBy": ["probeika"], "zones": [], "bargainPct": 0, "repairPct": null, "repairHours": null, "type": "trap" }
+]

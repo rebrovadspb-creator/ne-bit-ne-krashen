@@ -1,0 +1,736 @@
+[
+  {
+    "id": "zubilo",
+    "name": "Зубило",
+    "segment": "buckets",
+    "epoch": "soviet",
+    "avgPrice": 170000,
+    "years": [
+      1998,
+      2009
+    ],
+    "mileage": [
+      110000,
+      260000
+    ],
+    "colors": [
+      "серый",
+      "белый",
+      "синий",
+      "красный",
+      "серебристый",
+      "зелёный"
+    ],
+    "art": {
+      "exterior": "assets/cars/zubilo_main.webp",
+      "side": "assets/cars/zubilo_side.webp",
+      "interior": "assets/bg/interior_soviet.webp",
+      "ratio": 1.5,
+      "interiorRatio": 0.8,
+      "rareExterior": "assets/cars/zubilo_rare_main.webp",
+      "rareSide": "assets/cars/zubilo_rare_side.webp"
+    },
+    "zones": [
+      {
+        "id": "windshield",
+        "x": 52,
+        "y": 31,
+        "w": 26,
+        "h": 18
+      },
+      {
+        "id": "hood",
+        "x": 68,
+        "y": 47,
+        "w": 22,
+        "h": 14
+      },
+      {
+        "id": "bumper",
+        "x": 76,
+        "y": 68,
+        "w": 26,
+        "h": 14
+      },
+      {
+        "id": "headlight",
+        "x": 62,
+        "y": 58,
+        "w": 12,
+        "h": 14
+      },
+      {
+        "id": "fender",
+        "x": 53,
+        "y": 56,
+        "w": 12,
+        "h": 16
+      },
+      {
+        "id": "door",
+        "x": 34,
+        "y": 55,
+        "w": 18,
+        "h": 24
+      },
+      {
+        "id": "sill",
+        "x": 30,
+        "y": 71,
+        "w": 24,
+        "h": 10
+      },
+      {
+        "id": "wheel_front",
+        "x": 48,
+        "y": 77,
+        "w": 16,
+        "h": 24
+      },
+      {
+        "id": "wheel_rear",
+        "x": 13,
+        "y": 70,
+        "w": 13,
+        "h": 22
+      },
+      {
+        "id": "stoplight",
+        "x": 5,
+        "y": 50,
+        "w": 10,
+        "h": 16
+      },
+      {
+        "id": "under",
+        "x": 30,
+        "y": 84,
+        "w": 22,
+        "h": 12
+      }
+    ],
+    "interiorZones": [
+      {
+        "id": "steering",
+        "x": 46,
+        "y": 33,
+        "w": 40,
+        "h": 30
+      },
+      {
+        "id": "pedals",
+        "x": 45,
+        "y": 53,
+        "w": 34,
+        "h": 14
+      },
+      {
+        "id": "ashtray",
+        "x": 88,
+        "y": 41,
+        "w": 16,
+        "h": 8
+      },
+      {
+        "id": "seat",
+        "x": 47,
+        "y": 86,
+        "w": 56,
+        "h": 26
+      },
+      {
+        "id": "mat",
+        "x": 46,
+        "y": 66,
+        "w": 50,
+        "h": 10
+      }
+    ]
+  },
+  {
+    "id": "kopeika",
+    "name": "Копейка",
+    "segment": "buckets",
+    "epoch": "soviet",
+    "avgPrice": 160000,
+    "years": [
+      1975,
+      1988
+    ],
+    "mileage": [
+      130000,
+      300000
+    ],
+    "colors": [
+      "белый",
+      "красный",
+      "жёлтый",
+      "зелёный",
+      "бежевый"
+    ],
+    "art": {
+      "exterior": "assets/cars/kopeika_main.webp",
+      "side": "assets/cars/kopeika_side.webp",
+      "interior": "assets/bg/interior_soviet.webp",
+      "ratio": 1.5,
+      "interiorRatio": 0.8,
+      "rareExterior": "assets/cars/kopeika_rare_main.webp",
+      "rareSide": "assets/cars/kopeika_rare_side.webp"
+    },
+    "zones": [
+      {
+        "id": "windshield",
+        "x": 57,
+        "y": 31,
+        "w": 26,
+        "h": 18
+      },
+      {
+        "id": "hood",
+        "x": 70,
+        "y": 47,
+        "w": 24,
+        "h": 12
+      },
+      {
+        "id": "bumper",
+        "x": 78,
+        "y": 69,
+        "w": 36,
+        "h": 10
+      },
+      {
+        "id": "headlight",
+        "x": 62,
+        "y": 57,
+        "w": 12,
+        "h": 12
+      },
+      {
+        "id": "fender",
+        "x": 50,
+        "y": 55,
+        "w": 14,
+        "h": 16
+      },
+      {
+        "id": "door",
+        "x": 36,
+        "y": 52,
+        "w": 16,
+        "h": 24
+      },
+      {
+        "id": "sill",
+        "x": 36,
+        "y": 68,
+        "w": 26,
+        "h": 10
+      },
+      {
+        "id": "wheel_front",
+        "x": 52,
+        "y": 76,
+        "w": 15,
+        "h": 24
+      },
+      {
+        "id": "wheel_rear",
+        "x": 15,
+        "y": 72,
+        "w": 14,
+        "h": 24
+      },
+      {
+        "id": "stoplight",
+        "x": 5,
+        "y": 48,
+        "w": 10,
+        "h": 14
+      },
+      {
+        "id": "under",
+        "x": 32,
+        "y": 84,
+        "w": 22,
+        "h": 12
+      }
+    ],
+    "interiorZones": [
+      {
+        "id": "steering",
+        "x": 46,
+        "y": 33,
+        "w": 40,
+        "h": 30
+      },
+      {
+        "id": "pedals",
+        "x": 45,
+        "y": 53,
+        "w": 34,
+        "h": 14
+      },
+      {
+        "id": "ashtray",
+        "x": 88,
+        "y": 41,
+        "w": 16,
+        "h": 8
+      },
+      {
+        "id": "seat",
+        "x": 47,
+        "y": 86,
+        "w": 56,
+        "h": 26
+      },
+      {
+        "id": "mat",
+        "x": 46,
+        "y": 66,
+        "w": 50,
+        "h": 10
+      }
+    ]
+  },
+  {
+    "id": "solyarka",
+    "name": "Солярка",
+    "segment": "workhorses",
+    "epoch": "foreign",
+    "avgPrice": 400000,
+    "years": [
+      2008,
+      2016
+    ],
+    "mileage": [
+      90000,
+      240000
+    ],
+    "colors": [
+      "серебристый",
+      "чёрный",
+      "белый",
+      "синий",
+      "красный"
+    ],
+    "art": {
+      "exterior": "assets/cars/solyarka_main.webp",
+      "side": "assets/cars/solyarka_main.webp",
+      "interior": "assets/bg/interior_foreign.webp",
+      "ratio": 1.5,
+      "interiorRatio": 0.8,
+      "rareExterior": "assets/cars/solyarka_rare_main.webp",
+      "rareSide": "assets/cars/solyarka_rare_side.webp"
+    },
+    "zones": [
+      {
+        "id": "windshield",
+        "x": 57,
+        "y": 30,
+        "w": 26,
+        "h": 20
+      },
+      {
+        "id": "hood",
+        "x": 74,
+        "y": 46,
+        "w": 24,
+        "h": 14
+      },
+      {
+        "id": "bumper",
+        "x": 78,
+        "y": 73,
+        "w": 26,
+        "h": 12
+      },
+      {
+        "id": "headlight",
+        "x": 64,
+        "y": 57,
+        "w": 16,
+        "h": 10
+      },
+      {
+        "id": "fender",
+        "x": 51,
+        "y": 50,
+        "w": 12,
+        "h": 14
+      },
+      {
+        "id": "door",
+        "x": 35,
+        "y": 54,
+        "w": 18,
+        "h": 26
+      },
+      {
+        "id": "sill",
+        "x": 33,
+        "y": 69,
+        "w": 26,
+        "h": 10
+      },
+      {
+        "id": "wheel_front",
+        "x": 49,
+        "y": 76,
+        "w": 16,
+        "h": 26
+      },
+      {
+        "id": "wheel_rear",
+        "x": 14,
+        "y": 71,
+        "w": 14,
+        "h": 24
+      },
+      {
+        "id": "stoplight",
+        "x": 5,
+        "y": 47,
+        "w": 10,
+        "h": 14
+      },
+      {
+        "id": "under",
+        "x": 30,
+        "y": 85,
+        "w": 22,
+        "h": 12
+      }
+    ],
+    "interiorZones": [
+      {
+        "id": "steering",
+        "x": 41,
+        "y": 32,
+        "w": 46,
+        "h": 40
+      },
+      {
+        "id": "pedals",
+        "x": 46,
+        "y": 60,
+        "w": 32,
+        "h": 14
+      },
+      {
+        "id": "ashtray",
+        "x": 84,
+        "y": 50,
+        "w": 14,
+        "h": 8
+      },
+      {
+        "id": "seat",
+        "x": 52,
+        "y": 87,
+        "w": 62,
+        "h": 26
+      },
+      {
+        "id": "mat",
+        "x": 46,
+        "y": 69,
+        "w": 40,
+        "h": 9
+      }
+    ]
+  },
+  {
+    "id": "logarifm",
+    "name": "Логарифм",
+    "segment": "workhorses",
+    "epoch": "foreign",
+    "avgPrice": 420000,
+    "years": [
+      2009,
+      2017
+    ],
+    "mileage": [
+      80000,
+      220000
+    ],
+    "colors": [
+      "белый",
+      "серый",
+      "коричневый",
+      "чёрный",
+      "зелёный"
+    ],
+    "art": {
+      "exterior": "assets/cars/logarifm_main.webp",
+      "side": "assets/cars/logarifm_side.webp",
+      "interior": "assets/bg/interior_foreign.webp",
+      "ratio": 1.5,
+      "interiorRatio": 0.8,
+      "rareExterior": "assets/cars/logarifm_rare_main.webp",
+      "rareSide": "assets/cars/logarifm_rare_side.webp"
+    },
+    "zones": [
+      {
+        "id": "windshield",
+        "x": 57,
+        "y": 31,
+        "w": 26,
+        "h": 20
+      },
+      {
+        "id": "hood",
+        "x": 73,
+        "y": 47,
+        "w": 24,
+        "h": 14
+      },
+      {
+        "id": "bumper",
+        "x": 77,
+        "y": 74,
+        "w": 26,
+        "h": 12
+      },
+      {
+        "id": "headlight",
+        "x": 65,
+        "y": 57,
+        "w": 16,
+        "h": 10
+      },
+      {
+        "id": "fender",
+        "x": 51,
+        "y": 51,
+        "w": 12,
+        "h": 14
+      },
+      {
+        "id": "door",
+        "x": 39,
+        "y": 54,
+        "w": 18,
+        "h": 26
+      },
+      {
+        "id": "sill",
+        "x": 35,
+        "y": 70,
+        "w": 26,
+        "h": 10
+      },
+      {
+        "id": "wheel_front",
+        "x": 50,
+        "y": 76,
+        "w": 16,
+        "h": 26
+      },
+      {
+        "id": "wheel_rear",
+        "x": 15,
+        "y": 70,
+        "w": 14,
+        "h": 24
+      },
+      {
+        "id": "stoplight",
+        "x": 5,
+        "y": 48,
+        "w": 10,
+        "h": 14
+      },
+      {
+        "id": "under",
+        "x": 30,
+        "y": 85,
+        "w": 22,
+        "h": 12
+      }
+    ],
+    "interiorZones": [
+      {
+        "id": "steering",
+        "x": 41,
+        "y": 32,
+        "w": 46,
+        "h": 40
+      },
+      {
+        "id": "pedals",
+        "x": 46,
+        "y": 60,
+        "w": 32,
+        "h": 14
+      },
+      {
+        "id": "ashtray",
+        "x": 84,
+        "y": 50,
+        "w": 14,
+        "h": 8
+      },
+      {
+        "id": "seat",
+        "x": 52,
+        "y": 87,
+        "w": 62,
+        "h": 26
+      },
+      {
+        "id": "mat",
+        "x": 46,
+        "y": 69,
+        "w": 40,
+        "h": 9
+      }
+    ]
+  },
+  {
+    "id": "bukhanka",
+    "name": "Буханка-кемпер",
+    "segment": "workhorses",
+    "epoch": "soviet",
+    "avgPrice": 440000,
+    "years": [
+      1995,
+      2012
+    ],
+    "mileage": [
+      120000,
+      300000
+    ],
+    "colors": [
+      "хаки",
+      "белый",
+      "оранжевый",
+      "зелёный"
+    ],
+    "art": {
+      "exterior": "assets/cars/bukhanka_main.webp",
+      "side": "assets/cars/bukhanka_side.webp",
+      "interior": "assets/bg/interior_soviet.webp",
+      "ratio": 1.5,
+      "interiorRatio": 0.8
+    },
+    "zones": [
+      {
+        "id": "windshield",
+        "x": 72,
+        "y": 39,
+        "w": 26,
+        "h": 20
+      },
+      {
+        "id": "hood",
+        "x": 74,
+        "y": 53,
+        "w": 22,
+        "h": 10
+      },
+      {
+        "id": "bumper",
+        "x": 78,
+        "y": 79,
+        "w": 28,
+        "h": 10
+      },
+      {
+        "id": "headlight",
+        "x": 68,
+        "y": 60,
+        "w": 10,
+        "h": 14
+      },
+      {
+        "id": "fender",
+        "x": 56,
+        "y": 64,
+        "w": 14,
+        "h": 16
+      },
+      {
+        "id": "door",
+        "x": 50,
+        "y": 62,
+        "w": 14,
+        "h": 26
+      },
+      {
+        "id": "sill",
+        "x": 35,
+        "y": 77,
+        "w": 28,
+        "h": 8
+      },
+      {
+        "id": "wheel_front",
+        "x": 54,
+        "y": 84,
+        "w": 16,
+        "h": 26
+      },
+      {
+        "id": "wheel_rear",
+        "x": 19,
+        "y": 83,
+        "w": 14,
+        "h": 26
+      },
+      {
+        "id": "stoplight",
+        "x": 6,
+        "y": 60,
+        "w": 10,
+        "h": 16
+      },
+      {
+        "id": "under",
+        "x": 38,
+        "y": 92,
+        "w": 22,
+        "h": 12
+      }
+    ],
+    "interiorZones": [
+      {
+        "id": "steering",
+        "x": 46,
+        "y": 33,
+        "w": 40,
+        "h": 30
+      },
+      {
+        "id": "pedals",
+        "x": 45,
+        "y": 53,
+        "w": 34,
+        "h": 14
+      },
+      {
+        "id": "ashtray",
+        "x": 88,
+        "y": 41,
+        "w": 16,
+        "h": 8
+      },
+      {
+        "id": "seat",
+        "x": 47,
+        "y": 86,
+        "w": 56,
+        "h": 26
+      },
+      {
+        "id": "mat",
+        "x": 46,
+        "y": 66,
+        "w": 50,
+        "h": 10
+      }
+    ],
+    "rarity": "collector"
+  }
+]

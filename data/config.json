@@ -1,0 +1,169 @@
+{
+  "version": 2,
+  "gameYear": 2026,
+  "economy": {
+    "startMoney": 200000,
+    "askMultiplier": 1.05,
+    "v0Min": 0.7,
+    "v0Max": 1.3,
+    "priceRoundStep": 1000,
+    "argRoundStep": 100,
+    "trapChance": 0.08,
+    "schemeChance": 0.45,
+    "findingsMin": 3,
+    "findingsMax": 6,
+    "maxArgSumPct": 38,
+    "saleMultiplierNoReport": 1.1,
+    "saleMultiplierReport": 1.2,
+    "trapBuyerPct": 0.62,
+    "offerSpread": 0.04,
+    "maxOffers": 3
+  },
+  "inspection": {
+    "durationSec": 180,
+    "hintsPerInspection": 2,
+    "hintSec": 3,
+    "emptyZoneFeedback": true
+  },
+  "bargain": {
+    "bluffFailPatience": 2
+  },
+  "probeika": {
+    "freePerDay": 1,
+    "bonusAtRep": [
+      2,
+      5,
+      12
+    ]
+  },
+  "reputation": {
+    "deal": 10,
+    "scheme": 10,
+    "trapAvoided": 15,
+    "xpPerLevel": 50,
+    "maxLevel": 20,
+    "saleReport": 5,
+    "rareCar": 20
+  },
+  "analytics": {
+    "batchUrl": "",
+    "batchSize": 20
+  },
+  "sale": {
+    "strategies": {
+      "fast": {
+        "name": "Быстро",
+        "mult": -0.05,
+        "firstOfferHours": 1,
+        "noOfferChance": 0
+      },
+      "market": {
+        "name": "Рынок",
+        "mult": 0,
+        "firstOfferHours": 4,
+        "noOfferChance": 0
+      },
+      "premium": {
+        "name": "Дорого",
+        "mult": 0.07,
+        "firstOfferHours": 10,
+        "noOfferChance": 0.4
+      }
+    },
+    "offerLifeHours": 24,
+    "offerGapHours": 0.5
+  },
+  "repair": {
+    "boostHours": 1,
+    "boostPerDay": 3,
+    "timeScale": 0.25
+  },
+  "garage": {
+    "slotCapitalThresholds": [
+      0,
+      400000,
+      1200000,
+      3500000
+    ],
+    "mvpMaxSlots": 2
+  },
+  "segments": [
+    {
+      "id": "buckets",
+      "name": "Вёдра",
+      "unlockCapital": 0
+    },
+    {
+      "id": "workhorses",
+      "name": "Рабочие лошадки",
+      "unlockCapital": 350000
+    },
+    {
+      "id": "dream",
+      "name": "Мечта 2000-х",
+      "unlockCapital": 1000000
+    },
+    {
+      "id": "premium",
+      "name": "Премиум",
+      "unlockCapital": 3000000
+    }
+  ],
+  "rarity": {
+    "rare": {
+      "chance": 0.08,
+      "valueBonus": 0.15
+    },
+    "collector": {
+      "chance": 0.02,
+      "valueBonus": 0.35
+    },
+    "legendary": {
+      "chance": 0.005,
+      "valueBonus": 0.8
+    },
+    "guaranteeDays": 5
+  },
+  "feed": {
+    "size": 5,
+    "noRepeatDays": 30
+  },
+  "inspections": {
+    "perDay": 3,
+    "regenHours": 4,
+    "adPerDay": 2
+  },
+  "podrabotka": {
+    "amount": 30000,
+    "moneyBelow": 120000
+  },
+  "ads": {
+    "placements": {
+      "no_inspections": {
+        "limit": 2
+      },
+      "no_hints": {
+        "limit": 3
+      },
+      "no_probeika": {
+        "limit": 2
+      },
+      "repair_boost": {
+        "limit": 3
+      },
+      "seller_return": {
+        "limit": 1
+      },
+      "feed_refresh": {
+        "limit": 1
+      }
+    },
+    "interstitialMinGapSec": 180
+  },
+  "tutorial": {
+    "repairSec": 10,
+    "scriptedPrice": 115000,
+    "scriptedOffer": 190000,
+    "scriptedRepairCost": 15000
+  }
+}
